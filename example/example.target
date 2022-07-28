@@ -1,0 +1,4 @@
+executable "example"
+add_files "print_sqrt.cpp" "main.cpp"
+add_system_headers "iostream" "cmath"
+add_compiler_flags "-O3"
